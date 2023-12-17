@@ -11,9 +11,10 @@ namespace _01B
         static int Parse(string number)
         {
             int result = 0;
-            if (Int32.TryParse(number, out result)) return result;
+            if (int.TryParse(number, out result)) return result;
             return (int)Enum.Parse<Numbers>(number);
         }
+
         static void Main(string[] args)
         {
             if (args.Length == 0)

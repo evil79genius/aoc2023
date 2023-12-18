@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "08A": {
+      "commandName": "Project",
+      "commandLineArgs": "$(MSBuildProjectDirectory)\\..\\08-input.txt"
+    }
+  }
+}
